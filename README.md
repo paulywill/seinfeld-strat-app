@@ -1,3 +1,15 @@
+
+# Seinfeld StratApp
+Seinfeld Strategy App : record progress in on-going blocks 
+
+https://jamesclear.com/stop-procrastinating-seinfeld-strategy
+
+https://lifehacker.com/281626/jerry-seinfelds-productivity-secret
+
+
+Eventually a quick and dirty demo to practice some ground-up remote program pairing.
+
+----------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

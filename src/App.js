@@ -25,4 +25,11 @@ class App extends Component {
   }
 }
 
+// just a mocking
+class Table extends Component {
+  render () {
+    return ();
+  }
+}
+
 export default App;

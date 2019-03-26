@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
 import './App.css';
+import About from './About';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
+    render() {
+        return (
+                <Router>
+                <div>
+                <ul>
+                <li><Link to={'/'}>Home</Link></li>
+                <li><Link to={'/about'} className="nav-link">About</Link></li>
+                </ul>
 
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/app">App</a>
-        </header>
-      </div>
-    );
-  }
+                <Switch>
+                <Route path='/about' component={About} />
+                </Switch>
+                </div>
+                </Router>
+        );
+    }
 }
 
 export default App;
